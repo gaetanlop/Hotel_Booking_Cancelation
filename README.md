@@ -3,13 +3,13 @@
 # Final Product
 
 ## Data Cleaning
-Tomorrow
+Done with feature Selection
 
 ## Exploratory Data Analysis
-Tomorrow
+Done
 
 ## Model Building
-Tomorrow
+tomorrow
 ## Model Performance
 Tomorrow
 
