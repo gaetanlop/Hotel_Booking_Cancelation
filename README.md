@@ -8,6 +8,8 @@ Done with feature Selection
 ## Exploratory Data Analysis
 Done
 
+## Feature engineering
+
 ## Model Building
 tomorrow
 ## Model Performance
