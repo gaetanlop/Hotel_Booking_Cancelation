@@ -1,5 +1,7 @@
 # Hotel Booking Cancelation: Project Overview
 
+## About the Dataset
+
 ## Exploratory Data Analysis
 
 Before starting the EDA I made a few assumptions, I tried to find out if they were valid or not.
