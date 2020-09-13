@@ -1,14 +1,17 @@
-# Project Overview
-
-# Final Product
-
-## Data Cleaning
-Done with feature Selection
+# Hotel Booking Cancelation: Project Overview
 
 ## Exploratory Data Analysis
 Done
 
-## Feature engineering
+## Data Cleaning
+
+After the EDA I needed to clean up the data so that it can be used by a model. I made the following changes:
+* Deal with missing values
+* Feature Engineering:
+        * adding another column 'home_country'
+        * deal with data leakage
+        * Feature Selecgion using SelectKBest
+* Deal with categorical variables
 
 ## Model Building
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.  I tuned hyperparameters using GridSearchCV. I tried different models and evaluated them using Recall. I tuned hyperparameters using GridSearchCV. Why did I used Recall over Accuracy/Precision/F Beta score?
