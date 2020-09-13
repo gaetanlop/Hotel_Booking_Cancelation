@@ -51,5 +51,7 @@ The Stack Model outperformed the other approaches on the validation set. Here ar
 * **Voting Classifier hard**: -Recall= 86.60%
 * **Voting Classifier soft**: -Recall= 86.50%
 
+![alt text](https://github.com/gaetanlop/Hotel_Booking_Cancelation/blob/master/model%20perf.PNG)
+
 
 ## Productionization and Deployment
