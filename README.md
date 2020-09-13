@@ -8,9 +8,9 @@ Done
 After the EDA I needed to clean up the data so that it can be used by a model. I made the following changes:
 * Deal with missing values
 * Feature Engineering:
-       * adding another column 'home_country'
-       * deal with data leakage
-       * Feature Selecgion using SelectKBest
+  * adding another column 'home_country'
+  * deal with data leakage
+  * Feature Selecgion using SelectKBest
 * Deal with categorical variables
 
 ## Model Building
