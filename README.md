@@ -17,10 +17,10 @@ In this classification task, we want to reduce the number of false negative, tha
 
 Below the different models that I used:
 
- **Logistic Regression**
- **Random Forest**
- **XGBoost**
-  **Voting Classifier**: I wanted to implement what I learned recently on Model Stacking. It worked well.
+* **Logistic Regression**
+* **Random Forest**
+* **XGBoost**
+* **Voting Classifier**: I wanted to implement what I learned recently on Model Stacking. It worked well.
 
 ## Model Performance
 Tomorrow
