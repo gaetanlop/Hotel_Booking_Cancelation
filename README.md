@@ -14,9 +14,9 @@ Before starting the EDA I made a few assumptions, I tried to find out if they we
 After finding out if my assumptions was valid or not, I explored how bookings price for each hotels evolve during the year, checked out the number of nights people stay at the hotel, explored the correlation between features, and finally, I checked if the data was imbalanced or not.
 Below are a few highlights from the things I looked at: 
 
-![alt text]('https://github.com/gaetanlop/Hotel_Booking_Cancelation/blob/master/price%20evolution.PNG')
-
-
+![alt text](https://github.com/gaetanlop/Hotel_Booking_Cancelation/blob/master/price%20evolution.PNG)
+![alt text](https://github.com/gaetanlop/Hotel_Booking_Cancelation/blob/master/balance%20data.PNG)
+![alt text](https://github.com/gaetanlop/Hotel_Booking_Cancelation/blob/master/Corr.PNG)
 
 ## Data Cleaning
 
