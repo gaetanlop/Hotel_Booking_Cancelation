@@ -20,9 +20,16 @@ Below the different models that I used:
 * **Logistic Regression**
 * **Random Forest**
 * **XGBoost**
-* **Voting Classifier**: I wanted to implement what I learned recently on Model Stacking. It worked well.
+* **Voting Classifier hard and soft**
 
 ## Model Performance
-Tomorrow
+
+The Stack Model outperformed the other approaches on the validation set. Here are the results:
+* **Logistic Regression**: -Recall= 80.13%	
+* **Random Forest**: -Recall= 85.99%
+* **XGBoost**: -Recall= 84.70%
+* **Voting Classifier hard**: -Recall= 86.60%
+* **Voting Classifier soft**: -Recall= 86.50%
+
 
 ## Productionization and Deployment
