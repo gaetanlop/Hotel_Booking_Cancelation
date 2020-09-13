@@ -12,7 +12,9 @@ Recently, my family and I decided to buy a new apartment in Paris. It gave me th
 
 ## About the Dataset
 
-The dataset contains 30 columns and approximately 120 000 rows. It contains information for a city hotel and a resort hotel in Portugal such as : lead_time, number of adults, deposit type, price, the number of special requests... The dataset comprehend bookings due to arrive between the 1st of July of 2015 and the 31st of August 2017, including bookings that effectively arrived and bookings that were canceled. In this analysis we will try to predict whether or not a booking will be canceled.
+The dataset is from kaggle: https://www.kaggle.com/jessemostipak/hotel-booking-demand
+
+It contains 30 columns and approximately 120 000 rows. It contains information for a city hotel and a resort hotel in Portugal such as : lead_time, number of adults, deposit type, price, the number of special requests... The dataset comprehend bookings due to arrive between the 1st of July of 2015 and the 31st of August 2017, including bookings that effectively arrived and bookings that were canceled. In this analysis we will try to predict whether or not a booking will be canceled.
 
 An explanation of what the different columns mean is given in the Exploratory Data Analysis Notebook
 
