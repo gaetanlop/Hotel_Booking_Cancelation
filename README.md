@@ -16,6 +16,16 @@ It contains 30 columns and approximately 120 000 rows. It contains information f
 
 An explanation of what the different columns mean is given in the Exploratory Data Analysis Notebook
 
+## Code and Resources Used
+
+**Python Version:** 3.7
+
+**For Web Framework Requirements:** ```pip install -r requirements.txt```
+
+**For stacking:** https://www.kaggle.com/kenjee/titanic-project-example
+
+**Flask Productionization:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
+
 ## Exploratory Data Analysis
 
 Before starting the EDA I made a few assumptions, I tried to find out if they were valid or not.
