@@ -6,9 +6,9 @@
 * Data collection on Kaggle Website: https://www.kaggle.com/jessemostipak/hotel-booking-demand
 * Cleaned the Data and Removed sources of Data Leakage (four features where present in the dataset, but could not be used to make predictions since we would not have these informations at the time we make the prediction).
 * Generated one other feature and Used SelectKMean for Feature Selection.
-* Choose Recall over the different metrics of classification problems because I wanted to minimize False Negative Rate.
+* Choose Recall over the different metrics of classification problems because I wanted to minimize False Negative Rate (the number of bookings that we will predict canceled but that will not be).
 * Optimized Logistic, Random Forest Classifier and XGBoost Classifier using GridSearchCV to reach the best model.
-* Stacked three different models using Voting Classifier of Scikit Learn
+* Stacked three different models using Voting Classifier of Scikit Learn.
 * Built an API using flask.
 
 ## About the Dataset
