@@ -1,14 +1,12 @@
 # Hotel Booking Cancelation: Project Overview
 
-Recently, my family and I decided to buy a new apartment in Paris. It gave me the idea to try to understand how the price of an apartment is calculated and what are the main drivers that impact the sale price of an apartment in Paris.
-
-* Created a tool that estimates the price of an apartment in Paris in 2020 (MAE ~ € 74 K) to help people finding the best price to sold or buy an apartment.
-*   Scraped more than 4000 sell announcements of apartments in Paris from LogicImmo website using python and selenium.
-*   Engineered features from the text of each announcements description to get the different caracteristics of an apartment in Paris such as balcony, patio, cellar, parking, floor of the apartment, floor of the building.
-*   Optimized Linear, Lasso, Ridge, Random Forest Regressors and XGBoost Regressors using RandomizedSearchCV to reach the best model.
-*   Built a client facing API using flask.
-*   Used HTML, CSS, JS for the UI.
-*   Used AWS to put the model in production.
+* Created a tool that predict whether or not a Booking will be cancelled (Recall ~ 86.60%) to help hotel (city hotel or resort hotel) maximize their profits.
+* Data collection on Kaggle Website: https://www.kaggle.com/jessemostipak/hotel-booking-demand
+* Cleaned the Data and Removed sources of Data Leakage (four features where present in the dataset, but could not be used to make predictions since we would not have these informations at the time we make the prediction).
+* Generated one other feature and Used SelectKMean for Feature Selection.
+* Optimized Logistic, Random Forest Classifier and XGBoost Classifier using GridSearchCV to reach the best model.
+* Stacked three different models using Voting Classifier of Scikit Learn
+*   Built an API using flask.
 
 ## About the Dataset
 
