@@ -1,12 +1,15 @@
 # Hotel Booking Cancelation: Project Overview
 
+'Overbooking is a situation when the total number of rooms reserved for a certain period of time exceeds the total number of rooms available for sale for the same period' (https://setupmyhotel.com/train-my-hotel-staff/front-office-training/439-overbooking.html). In this project we will try to create a tool that will help hotels in their Overbooking Strategy. The goal is to find out whether or not a booking will be cancelled. If it is possible to create such a tool, hotels could use it to predict with a high accuracy the number of rooms that will be cancelled and therefore put the room for rent again. Such a strategy can help to maximize the total capacity and increase the overall revenue of the hotel.
+
 * Created a tool that predict whether or not a Booking will be cancelled (Recall ~ 86.60%) to help hotel (city hotel or resort hotel) maximize their profits.
 * Data collection on Kaggle Website: https://www.kaggle.com/jessemostipak/hotel-booking-demand
 * Cleaned the Data and Removed sources of Data Leakage (four features where present in the dataset, but could not be used to make predictions since we would not have these informations at the time we make the prediction).
 * Generated one other feature and Used SelectKMean for Feature Selection.
+* Choose Recall over the different metrics of classification problems because I wanted to minimize False Negative Rate.
 * Optimized Logistic, Random Forest Classifier and XGBoost Classifier using GridSearchCV to reach the best model.
 * Stacked three different models using Voting Classifier of Scikit Learn
-*   Built an API using flask.
+* Built an API using flask.
 
 ## About the Dataset
 
