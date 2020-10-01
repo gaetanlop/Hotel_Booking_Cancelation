@@ -1,4 +1,4 @@
-# Hotel Booking Cancelation APP: Project Overview
+# Hotel Booking Cancelation Web App: Project Overview
 
 In this project, I created a web app that predict whether or not a Booking will be cancelled. Such a tool can help hotels in their Overbooking Strategy. Indeed, this tool can be used to predict with a high accuracy the number of rooms that will be cancelled and therefore put the room for rent again. Such a strategy can help to maximize the total capacity and increase the overall revenue of the hotel.
 
