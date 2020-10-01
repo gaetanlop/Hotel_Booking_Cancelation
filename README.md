@@ -9,7 +9,7 @@
 * Choose Recall over the different metrics of classification problems because I wanted to minimize False Negative Rate (the number of bookings that we will predict canceled but that will not be).
 * Optimized Logistic, Random Forest Classifier and XGBoost Classifier using GridSearchCV to reach the best model.
 * Stacked three different models using Voting Classifier of Scikit Learn.
-* Built a client facing API using flask.
+* Built a client facing API using flask. Deployment on Heroku.
 
 ## About the Dataset
 
