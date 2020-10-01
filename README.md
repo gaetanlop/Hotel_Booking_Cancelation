@@ -11,6 +11,8 @@ In this project, I created a web app that predict whether or not a Booking will 
 * Stacked three different models using Voting Classifier of Scikit Learn.
 * Built a client facing API using flask. Deployment on Heroku.
 
+![alt text](https://github.com/gaetanlop/Hotel_Booking_Cancelation/blob/master/model%20perf.PNG)
+
 ## About the Dataset
 
 The dataset is from kaggle: https://www.kaggle.com/jessemostipak/hotel-booking-demand
