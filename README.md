@@ -82,4 +82,4 @@ The Stack Model outperformed the other approaches on the validation set. Here ar
 
 
 ## Productionization and Deployment
-To do
+Used Flask to create a client facing API and deployed it using Heroku.
