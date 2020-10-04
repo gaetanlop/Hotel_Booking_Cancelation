@@ -1,7 +1,6 @@
 # Hotel Booking Cancelation Web App: Project Overview
-* **Final Product Hosted On Heroku:** https://house-price-prediction-paris.herokuapp.com/
 
-In this project, I created a web app that predict whether or not a Booking will be cancelled. Such a tool can help hotels in their Overbooking Strategy. Indeed, this tool can be used to predict with a high accuracy the number of rooms that will be cancelled and therefore put the room for rent again. Such a strategy can help to maximize the total capacity and increase the overall revenue of the hotel.
+In this project, I created a tool that predict whether or not a Booking will be cancelled. Such a tool can help hotels in their Overbooking Strategy. Indeed, this tool can be used to predict with a high accuracy the number of rooms that will be cancelled and therefore put the room for rent again. Such a strategy can help to maximize the total capacity and increase the overall revenue of the hotel.
 
 * Created a tool that predict whether or not a Booking will be cancelled (Recall ~ 86.60%) to help hotel maximize their profits.
 * Data collection on Kaggle Website: https://www.kaggle.com/jessemostipak/hotel-booking-demand
@@ -10,7 +9,6 @@ In this project, I created a web app that predict whether or not a Booking will 
 * Choose Recall over the different metrics of classification problems because I wanted to minimize False Negative Rate (the number of bookings that we will predict canceled but that will not be).
 * Optimized Logistic, Random Forest Classifier and XGBoost Classifier using GridSearchCV to reach the best model.
 * Stacked three different models using Voting Classifier of Scikit Learn.
-* Built a client facing API using flask. Deployment on Heroku.
 
 ![alt text](https://github.com/gaetanlop/Hotel_Booking_Cancelation/blob/master/model%20perf.PNG)
 
@@ -84,5 +82,3 @@ The Stack Model outperformed the other approaches on the validation set. Here ar
 ![alt text](https://github.com/gaetanlop/Hotel_Booking_Cancelation/blob/master/model%20perf.PNG)
 
 
-## Productionization and Deployment
-Used Flask to create a client facing API and deployed it using Heroku.
