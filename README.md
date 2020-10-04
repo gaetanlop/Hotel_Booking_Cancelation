@@ -16,7 +16,7 @@ In this project, I created a tool that predict whether or not a Booking will be 
 
 The dataset is from kaggle: https://www.kaggle.com/jessemostipak/hotel-booking-demand
 
-It contains 30 columns and approximately 120 000 rows. It contains information for a city hotel and a resort hotel in Portugal such as : lead_time, number of adults, deposit type, price, the number of special requests... The dataset comprehend bookings due to arrive between the 1st of July of 2015 and the 31st of August 2017, including bookings that effectively arrived and bookings that were canceled. In this analysis we will try to predict whether or not a booking will be canceled.
+It contains 30 columns and approximately 120 000 rows. It contains informations for a city hotel and a resort hotel in Portugal such as : lead_time, number of adults, deposit type, price, the number of special requests... The dataset comprehend bookings due to arrive between the 1st of July of 2015 and the 31st of August 2017, including bookings that effectively arrived and bookings that were canceled. In this analysis we will try to predict whether or not a booking will be canceled.
 
 An explanation of what the different columns mean is given in the Exploratory Data Analysis Notebook
 
@@ -39,7 +39,7 @@ Before starting the EDA I made a few assumptions, I tried to find out if they we
  * The number of booking that were cancelled by the customer increases the chance of cancellation.
  * I think that the more number of total_of_special_requests, the less likely the cancellation.
  
-After finding out if my assumptions was valid or not, I explored how bookings price for each hotels evolve during the year, checked out the number of nights people stay at the hotel, explored the correlation between features, and finally, I checked if the data was imbalanced or not.
+After finding out if my assumptions were valid or not, I explored how bookings price for each hotels evolve during the year, checked out the number of nights people stay at the hotel, explored the correlation between features, and finally, I checked if the data was imbalanced or not.
 Below are a few highlights from the things I looked at: 
 
 ![alt text](https://github.com/gaetanlop/Hotel_Booking_Cancelation/blob/master/price%20evolution.PNG)
@@ -53,7 +53,7 @@ After the EDA I needed to clean up the data so that it can be used by a model. I
 * Feature Engineering:
   * adding another column 'home_country'
   * deal with data leakage
-  * Feature Selecgion using SelectKBest
+  * Feature Selection using SelectKBest
 * Deal with categorical variables
 
 The most important thing that I had to deal with during the Data Cleaning is removing sources of Data Leakage.
