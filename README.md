@@ -10,7 +10,7 @@ In this project, I created a tool that predict whether or not a Booking will be 
 * Optimized Logistic, Random Forest Classifier and XGBoost Classifier using GridSearchCV to reach the best model.
 * Stacked three different models using Voting Classifier of Scikit Learn.
 
-![alt text](https://github.com/gaetanlop/Hotel_Booking_Cancelation/blob/master/model%20perf.PNG)
+![alt text](https://github.com/gaetanlop/Hotel_Booking_Cancelation/blob/master/images/model%20perf.PNG)
 
 ## About the Dataset
 
@@ -42,9 +42,9 @@ Before starting the EDA I made a few assumptions, I tried to find out if they we
 After finding out if my assumptions were valid or not, I explored how bookings price for each hotels evolve during the year, checked out the number of nights people stay at the hotel, explored the correlation between features, and finally, I checked if the data was imbalanced or not.
 Below are a few highlights from the things I looked at: 
 
-![alt text](https://github.com/gaetanlop/Hotel_Booking_Cancelation/blob/master/price%20evolution.PNG)
-![alt text](https://github.com/gaetanlop/Hotel_Booking_Cancelation/blob/master/balance%20data.PNG)
-![alt text](https://github.com/gaetanlop/Hotel_Booking_Cancelation/blob/master/Corr.PNG)
+![alt text](https://github.com/gaetanlop/Hotel_Booking_Cancelation/blob/master/images/price%20evolution.PNG)
+![alt text](https://github.com/gaetanlop/Hotel_Booking_Cancelation/blob/master/images/balance%20data.PNG)
+![alt text](https://github.com/gaetanlop/Hotel_Booking_Cancelation/blob/master/images/Corr.PNG)
 
 ## Data Cleaning
 
@@ -79,6 +79,6 @@ The Stack Model outperformed the other approaches on the validation set. Here ar
 * **Voting Classifier hard**: -Recall= 86.60%
 * **Voting Classifier soft**: -Recall= 86.50%
 
-![alt text](https://github.com/gaetanlop/Hotel_Booking_Cancelation/blob/master/model%20perf.PNG)
+![alt text](https://github.com/gaetanlop/Hotel_Booking_Cancelation/blob/master/images/model%20perf.PNG)
 
 
